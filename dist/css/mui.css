@@ -2279,7 +2279,8 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 }
 .mui-table-view-cell.mui-active
 {
-    background-color: #eee;
+/*    background-color: #eee; */
+background: #fff;
 }
 .mui-table-view-cell:last-child:before, .mui-table-view-cell:last-child:after
 {
@@ -2305,7 +2306,8 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 }
 .mui-table-view-cell > a:not(.mui-btn).mui-active
 {
-    background-color: #eee;
+/*    background-color: #eee; */
+background: #fff;
 }
 .mui-table-view-cell p
 {
