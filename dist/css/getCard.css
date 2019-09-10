@@ -167,7 +167,6 @@ button {
 		transparent 8px, white 0) bottom left;
 	background-size: 80% 100%;
 	background-repeat: no-repeat;
-		border-bottom: 1px dashed #DDDDDD;
 }
 
 .cardBottom {
@@ -185,8 +184,8 @@ button {
 }
 
 .line {
-/* 	border-top: 1px dashed #DDDDDD;
-	margin-left: 6%; */
+	border-top: 1px dashed #B11415;
+
 }
 
 .text-ul {

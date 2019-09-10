@@ -88,7 +88,9 @@
 .desc {
 	padding: 1.2rem 0;
 }
-
+.desc .desc-text {
+		margin: 0 5%;
+}
 .desc .mui-table-view-cell {
 	list-style: none;
 	background: none
@@ -109,8 +111,10 @@ ul {
 	margin-top: -2.5rem;
 	position: relative;
 	z-index: 999;
-	padding-top: 5rem;
-	padding-bottom: 3.125rem;
+	padding-top: 4rem;
+	padding-bottom: 5.125rem;
+	padding-right:10% ;
+	padding-left: 10%;
 }
 .first .mui-pull-right{
 	padding-left: 50%;
@@ -134,4 +138,12 @@ button{
 }
 .mui-bar-nav ~ .mui-content{
 	padding-top: 0;
+}
+.btnstyle{
+	padding: 0.25rem;
+	font-size: 1rem;
+}
+.sendBtn{
+	padding-right:10% ;
+	padding-left: 10%;
 }

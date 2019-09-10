@@ -6,40 +6,60 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="dist/css/mui.css" rel="stylesheet" />
-		<link href="dist/css/paySuccess.css" rel="stylesheet" />
+		<link href="dist/css/pickupRecord.css" rel="stylesheet" />
 	</head>
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-			<h1 class="mui-title">订单核销</h1>
+			<h1 class="mui-title">自提记录</h1>
 			<div class="mui-icon mui-pull-right mui-icon-more"></div>
-			<br>
-			<br>
-			<div class="desc">
-				<br>
-				<div class="mui-pull-left">
-					<img src="./dist/img/01.png" width="50px">
-					<span class="mui-badge mui-badge-inverted"></span>
-				</div>
-				<div class="mui-pull-left"><br>企鹅分店</div>
-				<div class="mui-pull-right">
-				<p>累积积分：0</p>
-				<p>可用积分：0</p></div>
-				<br>
-			</div>
 		</header>
-		<br>
 		<div class="mui-content">
-			<ul class="mui-table-view mui-grid-view mui-grid-9 mui-text-center">
-				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-12">
-					<a href="#">
-						<span class="mui-icon vip "><img src="dist/img/qr.png" width="100%" ></span>
-						<div class="mui-media-body">01165123487</div>
-					</a>
+			<br>
+			<div class="mui-input-row mui-search">
+				<input type="search" class="mui-input-clear" placeholder="">查询
+			</div>
+			<br>
+			<div class="mui-segmented-control">
+				<a class="mui-control-item" href="#item2">未处理</a>
+				<a class="mui-control-item mui-active middle" href="#item2">已配货</a>
+				<a class="mui-control-item" href="#item2">已完成</a>
+			</div>
+			<br>
+			<br>
+			<br>
+			<ul class="list-div">
+				<li>
+					<div class="mui-pull-left">
+						<p class="top-text">收货人：企鹅</p>
+						<p class="top-text">商品：共5件商品</p>
+						<p class="top-text">手机：188888888</p>
+					</div>
+					<div class="mui-pull-right btn-right">
+						<p>5/14 16:13</p>
+						<p>￥29.00</p>
+						<p>自提订单</p>
+					</div>
 				</li>
 			</ul>
 			<br>
+			<br>
+			<br>
+			<ul class="list-div">
+				<li>
+					<div class="mui-pull-left">
+						<p class="top-text">收货人：企鹅</p>
+						<p class="top-text">商品：共5件商品</p>
+						<p class="top-text">手机：188888888</p>
+					</div>
+					<div class="mui-pull-right btn-right">
+						<p>5/14 16:13</p>
+						<p>￥29.00</p>
+						<p>自提订单</p>
+					</div>
+				</li>
+			</ul>
 		</div>
 		<script src="dist/js/mui.js"></script>
 		<script type="text/javascript">

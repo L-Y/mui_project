@@ -88,7 +88,9 @@
 .desc {
 	padding: 1.2rem 0;
 }
-
+.desc .desc-text {
+		margin: 0 5%;
+}
 .desc .mui-table-view-cell {
 	list-style: none;
 	background: none

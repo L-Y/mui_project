@@ -3374,9 +3374,9 @@ select:focus
     position: absolute;
     z-index: 1;
     top: 0;
-    right: 0;
+/*    right: 0; */
     bottom: 0;
-    left: 0;
+    left: 0.5rem;
 
     display: inline-block;
 
@@ -3417,7 +3417,7 @@ select:focus
     font-size: 20px;
 
     right: auto;
-    left: 5px;
+    left: 0.5rem;
 
     display: block;
 
@@ -5247,7 +5247,7 @@ body > .mui-progressbar
 
 .mui-icon-close-filled:before, .mui-icon-clear:before
 {
-    content: '\e434';
+/*    content: '\e434'; */
 }
 
 .mui-icon-refresh-filled:before
