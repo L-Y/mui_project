@@ -6,7 +6,7 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="dist/css/mui.css" rel="stylesheet" />
-		<link href="dist/css/paySuccess.css" rel="stylesheet" />
+		<link href="dist/css/sendOut.css" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -15,31 +15,30 @@
 			<h1 class="mui-title">订单核销</h1>
 			<div class="mui-icon mui-pull-right mui-icon-more"></div>
 			<br>
-			<br>
 			<div class="desc">
-				<br>
 				<div class="mui-pull-left">
-					<img src="./dist/img/01.png" width="50px">
-					<span class="mui-badge mui-badge-inverted"></span>
+					<p>姓名:企鹅</p>
+					<p>收货地址:西安市雁塔区翠华南路1688号</p>
 				</div>
-				<div class="mui-pull-left"><br>企鹅分店</div>
 				<div class="mui-pull-right">
-				<p>累积积分：0</p>
-				<p>可用积分：0</p></div>
+					<p>手机号码:18161982253</p>
+				</div>
 				<br>
 			</div>
 		</header>
 		<br>
 		<div class="mui-content">
-			<ul class="mui-table-view mui-grid-view mui-grid-9 mui-text-center">
-				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-12">
-					<a href="#">
-						<span class="mui-icon vip "><img src="dist/img/qr.png" width="100%" ></span>
-						<div class="mui-media-body">01165123487</div>
-					</a>
-				</li>
+			<ul class="list-div">
+				<div class="mui-text-center">请输入递单号</div>
+				<br>
+				<div class="mui-input-row">
+					<input type="text" placeholder="单行输入">
+				</div>
+				<br>
+				<button type="button" class="mui-btn mui-btn-red mui-btn-block">确认发货</button>
 			</ul>
-			<br>
+			<div class="total"> 总数：共计8件</div>
+			<div class="mui-text-center"><button type="button" class="mui-btn mui-btn-red mui-btn-block">去发货</button></div>
 		</div>
 		<script src="dist/js/mui.js"></script>
 		<script type="text/javascript">

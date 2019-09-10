@@ -102,13 +102,15 @@
 ul {
 	margin: 0 5%;
 	background: white;
-	padding: 0 3%;
+	padding: 0 5%;
 	padding-top: 1.5rem;
 	box-shadow: #666666;
-	border-radius: 10px;
+	border-radius: 0.3125rem;
 	margin-top: -2.5rem;
 	position: relative;
 	z-index: 999;
+	padding-top: 5rem;
+	padding-bottom: 3.125rem;
 }
 .first .mui-pull-right{
 	padding-left: 50%;
@@ -125,6 +127,9 @@ img{
 	padding: 1rem;
 }
 button{
+	background: #D60511;
+}
+.mui-btn-negative, .mui-btn-danger, .mui-btn-red{
 	background: #D60511;
 }
 .mui-bar-nav ~ .mui-content{
