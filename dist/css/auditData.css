@@ -1,0 +1,141 @@
+/* home */
+.mui-content.mui-row,
+.backgroud-white {
+	background: white;
+	color: #333;
+}
+
+.mui-bar-nav {
+	background: #D60511;
+	color: white;
+	height: 3.5rem;
+	background-image: url(../img/08.jpg);
+	margin-bottom: 10px;
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mui-bar-nav p {
+	color: white;
+	font-weight: bold;
+}
+
+.mui-title {
+	color: white;
+	font-weight: bold;
+}
+
+.mui-action-back {
+	color: white;
+}
+
+.mui-bar-nav~.mui-content {
+	padding: 0;
+}
+
+..mui-table-view-cell.mui-active {
+	background: #fff;
+}
+
+.mui-table-view {
+	margin: 0 3%;
+}
+
+.mui-table-view p {
+	padding: 0.25rem 0;
+}
+
+.mui-content {
+	margin-top: 2.3rem;
+}
+
+.mui-grid-4 {
+	padding: 0.5rem 0;
+}
+
+.mui-table-view-cell {
+	list-style: none;
+	background: #fff;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #ECECEC;
+}
+
+.mui-collapse-content {
+	border-top: 1px solid #ECECEC;
+}
+
+.desc .mui-table-view-cell {
+	list-style: none;
+	background: none
+}
+
+.mui-navigate-right:after,
+.mui-push-right:after {
+	margin-top: 0.95rem;
+}
+
+.text-seting span,
+.mui-badge.mui-badge-inverted {
+	font-size: 1rem;
+	color: #333;
+}
+
+.li-list {
+	padding: 1rem;
+}
+
+.mui-segmented-control {
+	border: none;
+	background: #fff;
+	padding-top: 1rem;
+}
+
+.mui-segmented-control .mui-control-item.mui-active {
+	background: none;
+	color: #FA7518;
+	border-bottom: 1px solid #FA7518;
+
+}
+
+.mui-segmented-control .mui-control-item {
+	border: none;
+	color: #333;
+}
+
+.mui-table-view-cell {
+	list-style: none;
+	background: #fff;
+}
+
+.mui-grid-view.mui-grid-9 {
+	background: #FFFFFF;
+	border-left: none;
+}
+
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+	border: none;
+}
+
+.mui-table-view-cell>a:not(.mui-btn) {
+	color: #333;
+}
+
+.text-weight {
+	font-weight: bold;
+
+}
+
+.text-weight .mui-media-body {
+	padding: 0.25rem 0;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+	height: 1.125rem;
+
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .red {
+	color: #D60511;

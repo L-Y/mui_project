@@ -1,0 +1,132 @@
+/* home */
+.mui-content {
+	/* background: white; */
+}
+.mui-bar{
+	position: relative;
+}
+.mui-bar-nav {
+	background: #D60511;
+	color: white;
+	height: 8.5rem;
+	background-image: url(../img/08.jpg);
+	margin-bottom: 10px;
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mui-bar-nav p {
+	color: white;
+	font-weight: bold;
+}
+
+.mui-title {
+	color: white;
+	font-weight: bold;
+}
+
+.mui-action-back {
+	color: white;
+}
+
+.mui-grid-view.mui-grid-9 {
+	background: #FFFFFF;
+	border-left: none;
+	border-top: none;
+}
+
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+	border: none;
+}
+
+.mui-content {
+/* 	margin-top: 4.7rem; */
+}
+
+.mui-grid-4 {
+	padding: 0.5rem 0;
+}
+
+.mui-table-view-cell {
+	list-style: none;
+	background: #fff;
+}
+
+.mui-segmented-control {
+	border: none;
+	background: #fff;
+	padding-top: 1rem;
+}
+
+.mui-segmented-control .mui-control-item.mui-active {
+	background: none;
+	color: #FA7518;
+	border-bottom: 1px solid #FA7518;
+
+}
+
+.mui-segmented-control .mui-control-item {
+	border: none;
+	color: #000000;
+}
+
+.text-weight {
+	font-weight: bold;
+
+}
+
+.text-weight .mui-media-body {
+	padding: 0.25rem 0;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+	height: 1.2rem;
+}
+
+/*  */
+.desc {
+	padding: 1.2rem 0;
+}
+
+.desc .mui-table-view-cell {
+	list-style: none;
+	background: none
+}
+
+.list-div li {
+	list-style: none;
+	height: 4.6rem;
+}
+
+ul {
+	margin: 0 5%;
+	background: white;
+	padding: 0 3%;
+	padding-top: 1.5rem;
+	box-shadow: #666666;
+	border-radius: 10px;
+	margin-top: -2.5rem;
+	position: relative;
+	z-index: 999;
+}
+.first .mui-pull-right{
+	padding-left: 50%;
+}
+img{
+	border:1px solid #EFEFEF;padding: 0.25rem;
+}
+.total{
+	margin: 0 5%;
+	padding-top: 1rem;
+}
+.mui-text-center{
+	margin: 0 5%;
+	padding: 1rem;
+}
+button{
+	background: #D60511;
+}
+.mui-bar-nav ~ .mui-content{
+	padding-top: 0;
+}
